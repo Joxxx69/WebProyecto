@@ -1,9 +1,10 @@
-
+* {
+    /*outline: 1px solid pink;*/
+}
 
 .contenedor {
     margin: 0 auto;
     width: 1440;
-    height: 1080px;
 }
 
 .box__1 {
@@ -176,6 +177,7 @@
     margin: 100px 80px 50px;
     display: flex;
     justify-content: space-around;
+    box-sizing: border-box;
 }
 .title__box2{
     width: 246px;
@@ -190,7 +192,8 @@
 
 .list__box2 {
     display: flex;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
+    flex-wrap: wrap;
 }
 
 .item__list__box2 {
@@ -217,3 +220,88 @@
     color: #1E1E1E;
     opacity: 0.8;
 }
+/*-------------------------box 3------------------------------*/
+
+.box__3{
+    background: #f7f7f7;
+    height: 680px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.title__box3{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 42px;
+    color: #1E1E1E;
+    margin-bottom: 30px;
+}
+
+.item__list__box3{
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+
+.card__item__list {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    height:500px;
+}
+.card-img-top{
+    height: 286px;
+    width: 296px;
+}
+
+  .card-type {
+    color: #a8a8a8;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .card-title {
+    color: #0d1b39;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .rating {
+    margin-bottom: 10px;
+  }
+  
+  .fa-star {
+    color: #f5b70b;
+  }
+  .price__btn__list{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+  }
+  .btn__add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0D1B39;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+    align-self: center;
+    box-sizing: border-box;
+
+  }
+
+
+  .btn__add a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 35px;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+  }
