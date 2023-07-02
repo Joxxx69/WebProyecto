@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://unpkg.com/normalize.css">
-    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/updateUser.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
@@ -34,30 +34,33 @@
                 </div>
             </nav>
                 <main class="SignIn_box1">
-                    <h1 class="title__signIn">Sign In</h1>
+                    <h1 class="title__signIn">Update User</h1>
                     <form onsubmit="return validateForm(this.value)" id="form__signIn">
+                        <div class="form__group">
+                            <label class="label__form" for="name">Full Name</label>
+                            <input class="input__form"  placeholder="Enter your Full Name here" type="text" id="name" name="name" onchange="validationInputs(this.value, this.name)">
+                            <span id="nameError" class="error"></span>
+                        </div>
                         <div class="form__group">
                             <label class="label__form" for="email">Email</label>
                             <input class="input__form"  placeholder="Enter your Email here" type="text" id="email" name="email" onchange="validationInputs(this.value, this.name)">
                             <span id="emailError" class="error"></span>
                         </div>
                         <div class="form__group">
+                            <label class="label__form" for="email">Direction</label>
+                            <input class="input__form"  placeholder="Enter your direction here" type="text" id="direction" name="direction" onchange="validationInputs(this.value, this.name)">
+                            <span id="nameError" class="error"></span>
+                        </div>
+                        <div class="form__group">
                             <label class="label__form" for="password">Password</label>
                             <input class="input__form" placeholder="Enter your Password here" type="password" id="password" name="password" onchange="validationInputs(this.value, this.name)">
                             <span id="passwordError" class="error"></span>
                         </div>
+                        
                         <div class="form__group">
-                            <p class="signUp__form">
-                                <span>Need an account?</span>
-                                <a href="./signUp.html">Sign up</a>
-                            </p>
+                            <button class="btn__login" type="submit">Update Data</button>
                         </div>
-                        <div class="form__group">
-                            <button class="btn__login" type="submit">Log in</button>
-                        </div>
-                        <div class="form__group">
-                            <a class="forgot__password__link" href="#">Forgot password?</a>
-                        </div>
+                        
                     </form>
     
                 </main>

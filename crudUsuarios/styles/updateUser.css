@@ -64,7 +64,7 @@
 
 .SignIn_box1 {
   width: 685px;
-  height: 710px;
+  height: 790px;
   margin: 80px auto 0;
   background-color: #fff;
   padding: 20px;
@@ -82,7 +82,8 @@
   font-size: 48px;
   color: #000000;
   text-align: center;
-  margin: 40px auto 0;
+  margin: 40px 200px 0 180px;
+  white-space: nowrap;
 }
 
 .form__group {
@@ -102,6 +103,7 @@
   color: #7c838a;
   align-self: flex-start;
   margin-left: 35px;
+  white-space: nowrap;
 }
 
 .input__form {
