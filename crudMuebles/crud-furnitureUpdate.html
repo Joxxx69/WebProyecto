@@ -49,15 +49,21 @@
                 </div>
             </nav>
             <main class="main_box1_crudF">
-                <h2 class="slogan__main_crudF">Añadir Mueble</h2>
+                <h2 class="slogan__main_crudF">Actualizar Información</h2>
                 
             </main>
 
         </div>
+        
+        
+
         <div style = "margin: 20px auto;">
             <section>
                 <div>
+                    
                     <form id="formulario-mueble" method="POST">
+                        
+                        
                         <label for="rutaImagen">Ruta de la imagen:</label>
                         <input type="text" id="rutaImagen" required>
                       
@@ -73,11 +79,10 @@
                         <label for="precio">Precio:</label>
                         <input type="number" step="any" id="precio" required>
                         
-                        
-                        <button type="submit">Añadir</button>
+                        <button type="submit" style="background-color: rgb(62, 114, 60)">Actualizar</button>
+                        <button type="submit" style="background-color: rgb(255, 0, 0)" onclick="window.location.href='./crudSelection.html'">Eliminar</button>
                         <button type="submit" style="background-color: rgb(131, 38, 38);" onclick="window.location.href='./crudSelection.html'">Cancelar</button>
-                        
-                      </form>
+                    </form>
                 </div>
             </section>
         </div>
