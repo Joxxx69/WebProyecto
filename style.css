@@ -1,6 +1,4 @@
-* {
-    outline: 1px solid pink;
-}
+
 
 .contenedor {
     margin: 0 auto;
@@ -221,11 +219,8 @@
 }
 /*-------------------------box 3------------------------------*/
 
-
-
-
 #formulario-mueble {
-    max-width: 400px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     background-color: #f7f7f7;
