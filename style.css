@@ -72,6 +72,10 @@
     font-size: 18px;
 }
 
+.item__list__navbar:hover {
+    font-weight: bolder;
+}
+
 .list__navbar .item__signIn {
     margin-right: 0;
 }
