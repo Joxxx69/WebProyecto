@@ -17,6 +17,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/solid.js" integrity="sha384-/BxOvRagtVDn9dJ+JGCtcofNXgQO/CCCVKdMfL115s3gOgQxWaX/tSq5V8dRgsbc" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/fontawesome.js" integrity="sha384-dPBGbj4Uoy1OOpM4+aRGfAOc0W37JkROT+3uynUgTHZCHZNMHfGXsmmvYTffZjYO" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <script src="./helpers/viewUser.js"></script>
 </head>
 <body>
     <div class="contenedor">
@@ -38,17 +39,17 @@
                     <form onsubmit="return validateForm(this.value)" id="form__signUp">
                         <div class="form__group">
                             <label class="label__form" for="name">Full Name</label>
-                            <input class="input__form"  placeholder="Javier Julio Jaramillo Jimenez" type="text" id="name" name="name" onchange="validationInputs(this.value, this.name)">
+                            <input class="input__form"  placeholder="Javier Julio Jaramillo Jimenez" type="text" id="name" name="name" onchange="validationInputs(this.value, this.name)" disabled>
                             
                         </div>
                         <div class="form__group">
                             <label class="label__form" for="email">Email</label>
-                            <input class="input__form"  placeholder="javier.jaramillo@epn.edu.ec" type="text" id="email" name="email" onchange="validationInputs(this.value, this.name)">
+                            <input class="input__form"  placeholder="javier.jaramillo@epn.edu.ec" type="text" id="email" name="email" onchange="validationInputs(this.value, this.name)" disabled>
                             
                         </div>
                         <div class="form__group">
                             <label class="label__form" for="email">Direction</label>
-                            <input class="input__form"  placeholder="Ladron de Gevara y Toledo 56755" type="text" id="direction" name="direction" onchange="validationInputs(this.value, this.name)">
+                            <input class="input__form"  placeholder="Ladron de Gevara y Toledo 56755" type="text" id="direction" name="direction" onchange="validationInputs(this.value, this.name)" disabled>
                             <span id="nameError" class="error"></span>
                         </div>
                         <div class="form__group">

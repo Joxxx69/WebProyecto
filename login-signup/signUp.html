@@ -48,6 +48,11 @@
                             <span id="emailError" class="error"></span>
                         </div>
                         <div class="form__group">
+                            <label class="label__form" for="direction">Direction</label>
+                            <input class="input__form"  placeholder="Enter your Direction here" type="text" id="direction" name="direction" onchange="validationInputs(this.value, this.name)">
+                            <span id="directionError" class="error"></span>
+                        </div>
+                        <div class="form__group">
                             <label class="label__form" for="password">Password</label>
                             <input class="input__form" placeholder="Enter your Password here" type="password" id="password" name="password" onchange="validationInputs(this.value, this.name)">
                             <span id="passwordError" class="error"></span>
