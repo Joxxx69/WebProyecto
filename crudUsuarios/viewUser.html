@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="https://unpkg.com/normalize.css">
     <link rel="stylesheet" href="./styles/viewUser.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
@@ -25,7 +26,7 @@
             <nav class="navbar__box1">
                 <header class="header__navbar">
                     <h1 class="title__header">
-                        <a href="../index.html">ArchFurniture</a>
+                        <a href="/login-signup/principal.html">ArchFurniture</a>
                     </h1>
                 </header>
                 <div class="icon_navbar">
@@ -52,9 +53,9 @@
                             <input class="input__form"  placeholder="Ladron de Gevara y Toledo 56755" type="text" id="direction" name="direction" onchange="validationInputs(this.value, this.name)" disabled>
                             <span id="nameError" class="error"></span>
                         </div>
-                        <div class="form__group">
-                            <button class="btn__login" type="submit">Done</button>
-                        </div>
+                        <a class="form__group" href="/crudUsuarios/crudSelection.html">
+                            <button class="btn__login" type="button">Done</button>
+                        </a>
                         
                     </form>
     

@@ -44,6 +44,9 @@
     mix-blend-mode: normal;
     margin: 0;
 }
+.title__header a:hover{
+    text-decoration: none;
+}
 
 .list__navbar {
     display: flex;
