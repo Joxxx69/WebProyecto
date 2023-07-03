@@ -1,5 +1,5 @@
 * {
-    outline: 1px solid pink;
+    /*outline: 1px solid pink;*/
   }
   
   .contenedor {
@@ -111,6 +111,7 @@
     color: #7c838a;
     align-self: flex-start;
     margin-left: 35px;
+    margin-right: 35px;
   }
   
   .input__form {
