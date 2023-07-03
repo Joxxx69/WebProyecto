@@ -35,7 +35,7 @@
             </nav>
                 <main class="SignIn_box1">
                     <h1 class="title__signIn">Sign In</h1>
-                    <form onsubmit="return validateForm(this.value)" id="form__signIn">
+                    <form id="form__signIn">
                         <div class="form__group">
                             <label class="label__form" for="email">Email</label>
                             <input class="input__form"  placeholder="Enter your Email here" type="text" id="email" name="email" onchange="validationInputs(this.value, this.name)">
@@ -153,5 +153,6 @@
                 </div>
             </footer>
     </div>
+    <script src="./helpers/login.js"></script>
 </body>
 </html>
