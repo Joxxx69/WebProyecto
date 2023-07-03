@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/administracion/admin.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inter"
+    />
+    <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/solid.js"
+      integrity="sha384-/BxOvRagtVDn9dJ+JGCtcofNXgQO/CCCVKdMfL115s3gOgQxWaX/tSq5V8dRgsbc"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/fontawesome.js"
+      integrity="sha384-dPBGbj4Uoy1OOpM4+aRGfAOc0W37JkROT+3uynUgTHZCHZNMHfGXsmmvYTffZjYO"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="box_crudF">
+        <nav class="navbar__box1">
+          <header class="header__navbar">
+            <h1 class="title__header">
+              <a href="/">ArchFurniture</a>
+            </h1>
+          </header>
+          <ul class="list__navbar">
+            <li class="item__list__navbar">
+              <a class="link__item__list" href="/">Furniture</a>
+            </li>
+            <li class="item__list__navbar">
+              <a class="link__item__list" href="/">Shop</a>
+            </li>
+            <li class="item__list__navbar">
+              <a class="link__item__list" href="/">About Us</a>
+            </li>
+            <li class="item__list__navbar item__signIn">
+              <a class="link__item__list" href="/">Sign In</a>
+            </li>
+          </ul>
+          <div class="icon_navbar">
+            <a href="/">
+              <svg
+                width="34"
+                height="34"
+                viewBox="0 0 34 34"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.007 2.83331C20.8036 2.83331 23.9249 5.81669 24.0833 9.59694H24.0463C24.0508 9.70682 24.0296 9.81624 23.9846 9.91665H24.2058C25.9299 9.91665 27.7353 11.1116 28.4592 13.9964L28.5378 14.3367L29.6271 23.1125C30.411 28.7098 27.3487 31.0636 23.1713 31.1633L22.8912 31.1666H11.1471C6.90168 31.1666 3.63027 29.6196 4.34956 23.4933L4.39861 23.1125L5.50041 14.3367C6.0437 11.2302 7.86761 10.0048 9.625 9.92127L9.81993 9.91665H9.93067C9.912 9.81089 9.912 9.7027 9.93067 9.59694C10.0891 5.81669 13.2104 2.83331 17.007 2.83331ZM12.8874 14.6331C12.1959 14.6331 11.6354 15.2101 11.6354 15.9218C11.6354 16.6335 12.1959 17.2105 12.8874 17.2105C13.5789 17.2105 14.1394 16.6335 14.1394 15.9218L14.1297 15.7602C14.0524 15.1247 13.5257 14.6331 12.8874 14.6331ZM21.0882 14.6331C20.3968 14.6331 19.8362 15.2101 19.8362 15.9218C19.8362 16.6335 20.3968 17.2105 21.0882 17.2105C21.7797 17.2105 22.3403 16.6335 22.3403 15.9218C22.3403 15.2101 21.7797 14.6331 21.0882 14.6331ZM16.9515 4.67836C14.2257 4.67836 12.0159 6.88048 12.0159 9.59694C12.0346 9.7027 12.0346 9.81089 12.0159 9.91665H21.9487C21.9093 9.81457 21.8884 9.70631 21.887 9.59694C21.887 6.88048 19.6773 4.67836 16.9515 4.67836Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </div>
+        </nav>
+        <main class="main_box1_crudF">
+          <h2 class="slogan__main_crudF">Administracion</h2>
+        </main>
+      </div>
+      <div style="margin: 20px auto">
+        <section class="module-section">
+
+          <a class="module" id="users-module" href="/crudUsuarios/crudSelection.html">
+            <div class="module-content">
+              <img class="icon" src="/administracion/imgs/users.svg" alt="">
+              <h5>Administrar usuarios</h5>
+            </div>
+          </a>
+
+          <a class="module" id="furniture-module" href="/crudMuebles/crudSelection.html">
+            <div class="module-content">
+              <img class="icon" src="/administracion/imgs/furnitures.svg" alt="">
+              <h5>Administrar muebles</h5>
+            </div>
+          </a>
+
+
+        </section>
+      </div>
+      <footer class="text-center text-lg-start bg-light text-muted">
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </section>
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="1em"
+                    viewBox="0 0 640 512"
+                  >
+                    <path
+                      d="M64 160C64 89.3 121.3 32 192 32H448c70.7 0 128 57.3 128 128v33.6c-36.5 7.4-64 39.7-64 78.4v48H128V272c0-38.7-27.5-71-64-78.4V160zM544 272c0-20.9 13.4-38.7 32-45.3c5-1.8 10.4-2.7 16-2.7c26.5 0 48 21.5 48 48V448c0 17.7-14.3 32-32 32H576c-17.7 0-32-14.3-32-32H96c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V272c0-26.5 21.5-48 48-48c5.6 0 11 1 16 2.7c18.6 6.6 32 24.4 32 45.3v48 32h32H512h32V320 272z"
+                    />
+                  </svg>
+                  ArchFurniture
+                </h6>
+                <p>
+                  Here you can use rows and columns to organize your footer
+                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit.
+                </p>
+              </div>
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">Services</h6>
+                <p>
+                  <a href="#!" class="text-reset">Email Marketing</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Campaigns</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Branding</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">All</a>
+                </p>
+              </div>
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">Services</h6>
+                <p>
+                  <a href="#!" class="text-reset">Beds</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Chair</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Closets</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">All</a>
+                </p>
+              </div>
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  info@example.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div
+          class="text-center p-4"
+          style="background-color: rgba(0, 0, 0, 0.05)"
+        >
+          © 2023 Copyright
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
