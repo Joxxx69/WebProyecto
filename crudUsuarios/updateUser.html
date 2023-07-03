@@ -17,6 +17,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/solid.js" integrity="sha384-/BxOvRagtVDn9dJ+JGCtcofNXgQO/CCCVKdMfL115s3gOgQxWaX/tSq5V8dRgsbc" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/fontawesome.js" integrity="sha384-dPBGbj4Uoy1OOpM4+aRGfAOc0W37JkROT+3uynUgTHZCHZNMHfGXsmmvYTffZjYO" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <script src="/crudUsuarios/helpers/updateUser.js"></script>
 </head>
 <body>
     <div class="contenedor">
@@ -28,7 +29,7 @@
                     </h1>
                 </header>
                 <div class="icon_navbar">
-                    <a href="../index.html">
+                    <a href="/crudUsuarios/crudSelection.html">
                         <i class="fas fa-times"></i>
                     </a>
                 </div>
@@ -47,7 +48,7 @@
                             <span id="emailError" class="error"></span>
                         </div>
                         <div class="form__group">
-                            <label class="label__form" for="email">Direction</label>
+                            <label class="label__form" for="direction">Direction</label>
                             <input class="input__form"  placeholder="Enter your direction here" type="text" id="direction" name="direction" onchange="validationInputs(this.value, this.name)">
                             <span id="nameError" class="error"></span>
                         </div>
@@ -58,7 +59,7 @@
                         </div>
                         
                         <div class="form__group">
-                            <button class="btn__login" type="submit">Update Data</button>
+                            <button class="btn__login" type="submit" id="btnUpdate">Update Data</button>
                         </div>
                         
                     </form>
